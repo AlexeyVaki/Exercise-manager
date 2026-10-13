@@ -1,6 +1,6 @@
 
 import { Link } from 'expo-router';
-import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
 
 export default function Index() {
   return (
@@ -14,7 +14,7 @@ export default function Index() {
           Manager for my exercizes
         </Text>
 
-        <Link style={styles.button}>
+        <Link href="/more-inf" style={styles.button}>
           Просто ссылка на вторую страницу
         </Link>
 
