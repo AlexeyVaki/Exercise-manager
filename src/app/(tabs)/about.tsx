@@ -1,12 +1,12 @@
 
 import { Link } from 'expo-router';
-import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
 
 export default function AboutScreen() {
   return (
     <ScrollView style={styles.container}>
       <View style={styles.content}>
-        <Text style={styles.title}>About Me</Text>
+        <Text style={styles.title}>Про меня</Text>
         <Link href="/" style={styles.backButton}>
           ← Back to Home
         </Link>

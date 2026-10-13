@@ -18,6 +18,11 @@ export default function Index() {
           Просто ссылка на вторую страницу
         </Link>
 
+        <Link href="/about" style={styles.secondButton}>
+          Про меня
+        </Link>
+
+
       </View>
     </ScrollView>
   );
